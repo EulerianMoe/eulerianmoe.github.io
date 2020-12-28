@@ -3,12 +3,14 @@ layout: post
 title: "Hello World"
 categories: misc
 ---
-This is a test
+这个域名买了大半年了，因为暑假的时候就有一点开个博客的冲动。然而种种原因并没有实行。这两天又在推上看到大家都在写年终总结，心里又开始痒痒的，恰好下午看到[某Vtuber](https://twitter.com/CyanNyan6)在直播搭博客，就也跟着搭了一个。于是就有了现在这个界面。
 
-The equation $$(x_i \cdot x_j)^2$$ is called kernel function and is often written as $$k(x_i, x_j)$$.
+和[某推友](https://twitter.com/Labelray)一样，我的上一个博客是很多年前还在打OI的时候挂题解的地方（当然我猜很多OIer都有这么一个博客）。不过在CS学习方面受益于ex OIer和美本的身份的时候，我最近越发觉得自己好像已经失去了严肃表达的能力了。为了改变这个状态最近在尝试写日记，然而只有自己才能看的日记，写了之后往往没有看的欲望（不知道为什么，我只喜欢看隔了至少一个月的日记），所以另外一个方面讲，这个博客也是为了锻炼我自己的写作能力吧。
+
+现在其实也没有想好这个博客到底要写什么样的内容，就是偶尔写一点生活随感，偶尔用来冲塔，偶尔写一点Research相关的内容吧。
+
+
 
 $$
-\begin{equation}
-   R_T \leq \sum_{t=1}^T \left[ \|p_t-p_{t+1}\|_1 + \left\langle p_{t+1}, \ell_t - \ell_t(x_T^*) \right\rangle\right].
-\end{equation}
+M_t = \exp\left(-\int_0^t \langle v_s,dB_s\rangle - \frac12 \int_0^t \|v_s\|^2\,ds\right)\,,
 $$
