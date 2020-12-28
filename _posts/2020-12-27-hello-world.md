@@ -12,5 +12,5 @@ categories: misc
 
 
 $$
-M_t = \exp\left(-\int_0^t \langle v_s,dB_s\rangle - \frac12 \int_0^t \|v_s\|^2\,ds\right)\.
+M_t = \exp\left(-\int_0^t \langle v_s,dB_s\rangle - \frac12 \int_0^t \|v_s\|^2\,ds\right).
 $$
