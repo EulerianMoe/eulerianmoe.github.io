@@ -1,0 +1,53 @@
+title: Eulerian Moe # The title of the blog
+author: Eulerian Moe # Your name 
+email: eulerian.moe@gmail.com # your email shown in the footer
+url: http://eulerian.xyz/ # this is your site's root address.
+description: > # this means to ignore newlines until "show_excerpts:"
+  A blog 
+favicon: "./favicon.ico" # set the favicon of the site 
+
+show_excerpts: false # set to true to show excerpts on the homepage
+  
+# Moving date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+moving:
+  avatar_url: "pics/avatar.jpg" # avatar in about page
+  about_you: A graduate students studying computer science. # short description about you in about page
+  date_format: "%b %d" # date format of posts in home page
+  back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
+
+  # generate social links in about page.
+  social_links:
+    twitter: EulerianMoe
+    github:  EulerianMoe
+    # rss: RSS
+    # dribbble: 
+    # facebook: huangyz0918
+    # flickr:   
+    # instagram: 
+    # linkedin: yizheng-huang
+    # pinterest: 
+    # youtube: 
+    # youtube_channel: 
+    # youtube_channel_name: 
+    # telegram: 
+    # googleplus: 
+    # microdotblog: 
+    # reddit: 
+
+    # Mastodon instances
+    # mastodon:
+    # - username: 
+    #   instance: 
+    # - username: 
+    #   instance: 
+
+# Build settings
+# theme: moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
+remote_theme: huangyz0918/moving
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+google_analytics: G-74315MNTFL
