@@ -10,7 +10,15 @@ layout: default
     <p class="home-heading">{{ site.title }}</p>
     <p class="home-sub-heading">{{- site.description | escape -}}</p>
   </div>
-
+  <ul class="contact-list">
+    <li class="p-name">
+      {%- if site.author -%}
+        <a class="black-link" href="{{ site.url }}/about.html">
+          About Me
+        </a>
+      {%- endif -%}
+      </li>
+  </ul>
   {%- if site.posts.size > 0 -%}
   <ul class="post-list">
       {% for post in site.posts  %}

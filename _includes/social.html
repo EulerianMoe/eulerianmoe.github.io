@@ -1,6 +1,12 @@
 {%- assign social = site.moving.social_links -%}
 
 <ul class="social-media-list">
+  {%- if site.email -%}
+  <li>
+  <a class="u-email black-link" href="mailto:{{ site.email }}">[Email]</a></li>
+  {%- endif -%}
+
+
   {%- if social.dribbble -%}
   <li>
     <a
